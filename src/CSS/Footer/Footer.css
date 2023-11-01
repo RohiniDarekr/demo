@@ -1,0 +1,21 @@
+
+
+.div {
+	background-color: green;
+	border-top: 2px solid red;
+	position: static;
+	width: 100%;
+	bottom: 0;
+	color: white;
+	font-size: 25px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+ 
+}
+p{
+    color: aliceblue;
+}

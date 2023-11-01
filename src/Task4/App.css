@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .mainapp {
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    margin-bottom: 80px;
+    width: 94rem;
+  }
+  
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+    justify-content: center;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    align-items: center;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  .getStartedButton {
+    background-color: blue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .bio {
+    margin: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .bio_data {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .cite1 {
+    font-size: 40px;
+  }
+  
+  .rating,
+  .para {
+    float: right;
+  }
+  
+  .para {
+    margin-right: 20px;
+  }
+  
+  .span1 {
+    border: 1px solid gray;
+    margin-right: 10px;
+  }
+  
+  .span2 {
+    border: 1px solid gray;
+    width: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .span3 {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .span3 i {
+    border: 1px;
+  }
+  
+  .image {
+    height: 300px;
+    background-size: cover;
+    align-items: center;
+    margin: 20px 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .navbar,
+    .article,
+    .bio {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar {
+      margin-bottom: 20px;
+    }
+  
+    .navbar h1 {
+      font-size: 24px;
+    }
+  
+    .getStartedButton {
+      margin-top: 20px;
+    }
+  
+    .bio_data {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .para {
+      margin-right: 0;
+      margin-top: 20px;
+    }
+  
+    .image {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  

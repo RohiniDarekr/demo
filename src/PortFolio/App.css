@@ -1,0 +1,70 @@
+body {
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cardcontainer {
+    width: 100%;
+    max-width: 300px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .outercard {
+    text-align: center;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .heading h1 {
+    text-align: center;
+  }
+  
+  .quantity {
+    display: flex;
+    justify-content: center;
+  }
+  .small1{
+    margin: 5px;
+  }
+  .label{
+    font-size: 18px;
+  }
+  
+  
+  .quantity-button{
+    padding: 5px 20px;
+    background-color:green;
+    border-radius: 10px;
+  
+  }
+  .buy-button{
+    padding: 5px 20px;
+    background-color:green;
+    border-radius: 10px;
+    
+  
+  }
+  .message {
+    color: rgb(68, 194, 68);
+    font-size: 40px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .cardcontainer {
+      margin: 0;
+    }
+  }
+  
